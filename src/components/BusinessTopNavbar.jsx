@@ -11,7 +11,7 @@ import {
   ChevronDown,
   X
 } from 'lucide-react';
-import logoIcon from "../assests/images/logoIcon.png"
+import NgugiAssociates from "../assests/images/NgugiAssociates.png"
 
 const BusinessTopNavbar = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -212,7 +212,7 @@ const BusinessTopNavbar = () => {
           >
             <div className="w-40 h-12">
               <img 
-                src= {logoIcon}
+                src= {NgugiAssociates}
                 //"https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=200&h=60&fit=crop" 
                 alt="Company Logo" 
                 className="w-full h-full object-contain"

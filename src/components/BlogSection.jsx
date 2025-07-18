@@ -10,7 +10,7 @@ const BlogSection = () => {
       title: "The Future of Custom Software Development",
       description: "Exploring emerging trends and technologies that are shaping the future of bespoke software solutions for businesses.",
       category: "Software Development",
-      author: "John Doe",
+      author: "Sir Ngugi Wainaina",
       date: "2 days ago",
       image: "https://images.pexels.com/photos/574071/pexels-photo-574071.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       readTime: "5 min read"
@@ -20,7 +20,7 @@ const BlogSection = () => {
       title: "Mobile App Development Best Practices",
       description: "Essential guidelines and methodologies for creating high-performance mobile applications that users love.",
       category: "Mobile Development",
-      author: "Jane Smith",
+      author: "Sir Ngugi Wainaina",
       date: "5 days ago",
       image: "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       readTime: "7 min read"
@@ -30,7 +30,7 @@ const BlogSection = () => {
       title: "Cloud Solutions for Modern Businesses",
       description: "How cloud computing is revolutionizing business operations and enabling scalable, efficient workflows.",
       category: "Cloud Computing",
-      author: "Mike Johnson",
+     author: "Sir Ngugi Wainaina",
       date: "1 week ago",
       image: "https://images.pexels.com/photos/1181675/pexels-photo-1181675.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       readTime: "6 min read"
@@ -40,7 +40,7 @@ const BlogSection = () => {
       title: "Data Analytics: Turning Information into Insights",
       description: "Leveraging advanced analytics to make data-driven decisions that propel business growth and innovation.",
       category: "Data Analytics",
-      author: "Sarah Wilson",
+     author: "Sir Ngugi Wainaina",
       date: "1 week ago",
       image: "https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       readTime: "8 min read"
@@ -50,7 +50,7 @@ const BlogSection = () => {
       title: "Cybersecurity in the Digital Age",
       description: "Essential security measures and best practices to protect your digital assets from evolving cyber threats.",
       category: "Cybersecurity",
-      author: "David Brown",
+      author: "Sir Ngugi Wainaina",
       date: "2 weeks ago",
       image: "https://images.pexels.com/photos/60504/security-protection-anti-virus-software-60504.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       readTime: "10 min read"
@@ -60,7 +60,7 @@ const BlogSection = () => {
       title: "IoT Solutions for Smart Businesses",
       description: "Implementing Internet of Things technologies to create connected, intelligent business environments.",
       category: "IoT",
-      author: "Lisa Davis",
+      author: "Sir Ngugi Wainaina",
       date: "3 weeks ago",
       image: "https://images.pexels.com/photos/3861969/pexels-photo-3861969.jpeg?auto=compress&cs=tinysrgb&w=400&h=250&fit=crop",
       readTime: "6 min read"

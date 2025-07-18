@@ -3,11 +3,13 @@ import { Quote, ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import BusinessTopNavbar from '../components/BusinessTopNavbar';
 import BusinessServicesSection from '../components/BusinessServicesSection';
+import BusinessBeliefsSection from '../components/BusinessBeliefsSection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
 import SectorsSection from '../components/SectorsSection';
 import TestimonialSlider from '../components/TestimonialSlider';
-import FinanceImg from "../assests/images/financeImg.jpg";  
+import financeImg from '../assests/images/financeImg.jpg';
+
 
 const AuditBusinessAdvisory = () => {
   const scrollToSection = (sectionId) => {
@@ -60,7 +62,7 @@ const AuditBusinessAdvisory = () => {
                 {/* Main Image */}
                 <div className="relative z-10">
                   <img 
-                    src= {FinanceImg}
+                    src= {financeImg}
                     //"https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600&h=650&fit=crop"
                     alt="Financial consulting office" 
                     className="rounded-lg shadow-2xl w-full max-w-md lg:max-w-lg h-auto object-cover"
@@ -105,8 +107,11 @@ const AuditBusinessAdvisory = () => {
       {/* Sectors Section */}
       <SectorsSection />
       
-      {/* Testimonials Section */}
-      <TestimonialSlider />
+      {/* Business Beliefs Section */}
+      <BusinessBeliefsSection />
+      
+      {/* Testimonials Section
+      <TestimonialSlider /> */}
       
       {/* Contact Section */}
       <ContactSection />
