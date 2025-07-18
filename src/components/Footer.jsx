@@ -237,7 +237,7 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row items-center justify-between gap-4">
               <div className="text-gray-400 text-sm text-center md:text-left">
                 <p>&copy; {currentYear} APBC Africa. All rights reserved.</p>
-                <p className="mt-1">Crafted with ❤️ for digital innovation</p>
+                {/* <p className="mt-1">Crafted with ❤️ for digital innovation</p> */}
               </div>
               
               <div className="flex items-center gap-6">

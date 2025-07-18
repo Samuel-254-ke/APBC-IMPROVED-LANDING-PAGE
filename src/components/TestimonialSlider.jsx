@@ -7,41 +7,53 @@ const TestimonialSlider = () => {
 
   const testimonials = [
     {
-      text: "We lead the way in providing tax, accounting, and business advisory services to clients in Kenya and beyond. We are a team of professionals who are committed to providing quality services",
+      text: "Friends, such as we desire, are dreams and fables. Friendship demands the ability to do without it.",
       author: "Sir Ngugi Wainaina",
       role: "Chief Executive Officer",
-      image: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+      image: "https://picsum.photos/100/100?random=1"
     },
     {
-      text: "The competence, professionalism, and dedication of the team at Ngugi Wainaina & Associates is unmatched. We have been instrumental in the complex world of tax and accounting.",
-      author: "Mercy J",
-      role: "Senior Associate",
-      image: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+      text: "Being a developer is kind of like being a wizard. You can make anything happen.",
+      author: "David W",
+      role: "Software developer",
+      image: "https://i.ibb.co/MsLkjzD/Whats-App-Image-2025-01-20-at-11-25-09-removebg-preview.png"
     },
     {
-      text: "As an associate at Ngugi Wainaina & Associates, I witness firsthand the expertise and commitment our team brings to every client. This is truly the best place for comprehensive tax and finance solutions.",
-      author: "Pauline M",
-      role: "Tax Consultant",
-      image: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+      text: "To be a good developer, you need to be like a sponge. You need to absorb as much information as you can.",
+      author: "Ismael N",
+      role: "Software developer",
+      image: "https://i.ibb.co/ZgXrfxT/unnamed-njihia.jpg"
     },
     {
-      text: "Working with this team has been transformative for our business. Their deep understanding of financial regulations and personalized approach sets them apart.",
-      author: "David K",
-      role: "Business Advisor",
-      image: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+      text: "UI/UX is a critical part of any website. It's the first impression, and it can make or break a site.",
+      author: "Vincensher O",
+      role: "UX Designer",
+      image: "https://i.ibb.co/pzszLG5/IMG-4863-obonyo.jpg"
     },
     {
-      text: "The audit services provided exceeded our expectations. Professional, thorough, and delivered with exceptional attention to detail.",
-      author: "Sarah M",
-      role: "Audit Manager",
-      image: "https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
+      text: "The best way to learn is by doing. The only way to learn is by doing.",
+      author: "Sylvester O",
+      role: "Software developer",
+      image: "https://i.ibb.co/Hq6NzTC/A-3-1.jpg"
     },
     {
-      text: "Their expertise in forensic accounting helped us navigate complex financial challenges with confidence and precision.",
-      author: "Michael R",
-      role: "Forensic Specialist",
-      image: "https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-    }
+      text: "I love coding because it's like solving puzzles. It's fun and challenging.",
+      author: "Samuel W",
+      role: "Technical Lead",
+      image: "https://picsum.photos/100/100?random=6"
+    },
+    {
+      text: "As a developer, you need to be able to think outside the box. You need to be creative and innovative.",
+      author: "Yvonne N",
+      role: "Software developer",
+      image: "https://i.ibb.co/TKBrybK/IMG-5776-kadogo-1.jpg"
+    },
+    {
+      text: "You need to be passionate about coding. You need to love what you do.",
+      author: "Victor A",
+      role: "Software developer",
+      image: "https://i.ibb.co/mySZmwF/Whats-App-Image-2025-01-20-at-11-25-11-removebg-preview.png"
+    },
   ];
 
   // Auto-play functionality
@@ -97,7 +109,7 @@ const TestimonialSlider = () => {
   };
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 bg-white">
       <div className="max-w-7xl mx-auto px-8">
         
         {/* Slider Container */}

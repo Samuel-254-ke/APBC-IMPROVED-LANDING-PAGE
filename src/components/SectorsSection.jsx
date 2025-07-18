@@ -9,6 +9,7 @@ import {
   ArrowRight,
   CheckCircle
 } from 'lucide-react';
+import clock from '../assests/images/clock.png';
 
 const SectorsSection = () => {
   const scrollToSection = (sectionId) => {
@@ -146,7 +147,8 @@ const SectorsSection = () => {
               <div className="relative">
                 <div className="bg-white rounded-2xl p-8 shadow-xl">
                   <img 
-                    src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                    src= {clock}
+                    //"https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
                     alt="Professional consultation" 
                     className="w-full h-80 object-cover rounded-xl"
                   />

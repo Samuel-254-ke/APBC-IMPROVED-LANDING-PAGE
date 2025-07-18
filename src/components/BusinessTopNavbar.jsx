@@ -11,6 +11,7 @@ import {
   ChevronDown,
   X
 } from 'lucide-react';
+import logoIcon from "../assests/images/logoIcon.png"
 
 const BusinessTopNavbar = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -80,7 +81,8 @@ const BusinessTopNavbar = () => {
               <div className="flex items-center justify-between p-6 border-b border-gray-200">
                 <div className="w-32 h-10">
                   <img 
-                    src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=200&h=60&fit=crop" 
+                    src= {logoIcon}
+                    //"https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=200&h=60&fit=crop" 
                     alt="Company Logo" 
                     className="w-full h-full object-contain"
                   />
@@ -210,7 +212,8 @@ const BusinessTopNavbar = () => {
           >
             <div className="w-40 h-12">
               <img 
-                src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=200&h=60&fit=crop" 
+                src= {logoIcon}
+                //"https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=200&h=60&fit=crop" 
                 alt="Company Logo" 
                 className="w-full h-full object-contain"
               />

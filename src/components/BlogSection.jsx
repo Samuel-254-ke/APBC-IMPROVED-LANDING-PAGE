@@ -67,43 +67,6 @@ const BlogSection = () => {
     }
   ];
 
-  // Mock testimonials data
-  const testimonials = [
-    {
-      id: 1,
-      name: "Alex Thompson",
-      position: "CTO, TechCorp",
-      content: "APBC Africa delivered exceptional software solutions that transformed our business operations. Their expertise and dedication are unmatched.",
-      rating: 5,
-      avatar: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-    },
-    {
-      id: 2,
-      name: "Maria Rodriguez",
-      position: "CEO, InnovateLab",
-      content: "The team's innovative approach and technical prowess helped us achieve our digital transformation goals ahead of schedule.",
-      rating: 5,
-      avatar: "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-    },
-    {
-      id: 3,
-      name: "James Wilson",
-      position: "Founder, StartupHub",
-      content: "Outstanding service and support. They understood our vision and delivered a product that exceeded our expectations.",
-      rating: 5,
-      avatar: "https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=100&h=100&fit=crop"
-    }
-  ];
-
-  const [currentTestimonial, setCurrentTestimonial] = React.useState(0);
-
-  React.useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentTestimonial((prev) => (prev + 1) % testimonials.length);
-    }, 5000);
-    return () => clearInterval(interval);
-  }, [testimonials.length]);
-
   return (
     <section id="blog" className="bg-white py-16">
       <div className="container mx-auto px-8">
@@ -237,63 +200,6 @@ const BlogSection = () => {
               </p>
             </div>
 
-          </div>
-
-          {/* Testimonial Slider */}
-          <div className="max-w-4xl mx-auto">
-            <div className="relative bg-white rounded-2xl shadow-xl p-8 lg:p-12">
-              
-              {/* Quote Icon */}
-              <div className="absolute -top-6 left-1/2 transform -translate-x-1/2 w-12 h-12 bg-amber-500 rounded-full flex items-center justify-center">
-                <Quote size={24} className="text-white" />
-              </div>
-
-              {/* Testimonial Content */}
-              <div className="text-center">
-                <p className="text-lg lg:text-xl text-slate-700 leading-relaxed mb-8 italic">
-                  "{testimonials[currentTestimonial].content}"
-                </p>
-                
-                {/* Rating */}
-                <div className="flex justify-center gap-1 mb-6">
-                  {[...Array(testimonials[currentTestimonial].rating)].map((_, i) => (
-                    <Star key={i} size={20} className="text-amber-500 fill-current" />
-                  ))}
-                </div>
-                
-                {/* Author */}
-                <div className="flex items-center justify-center gap-4">
-                  <img 
-                    src={testimonials[currentTestimonial].avatar}
-                    alt={testimonials[currentTestimonial].name}
-                    className="w-16 h-16 rounded-full object-cover border-4 border-amber-100"
-                  />
-                  <div className="text-left">
-                    <h4 className="font-bold text-slate-800 text-lg">
-                      {testimonials[currentTestimonial].name}
-                    </h4>
-                    <p className="text-slate-600 text-sm">
-                      {testimonials[currentTestimonial].position}
-                    </p>
-                  </div>
-                </div>
-              </div>
-
-              {/* Navigation Dots */}
-              <div className="flex justify-center gap-2 mt-8">
-                {testimonials.map((_, index) => (
-                  <button
-                    key={index}
-                    onClick={() => setCurrentTestimonial(index)}
-                    className={`w-3 h-3 rounded-full transition-all duration-300 ${
-                      index === currentTestimonial 
-                        ? 'bg-amber-500 w-8' 
-                        : 'bg-gray-300 hover:bg-gray-400'
-                    }`}
-                  />
-                ))}
-              </div>
-            </div>
           </div>
 
         </div>
