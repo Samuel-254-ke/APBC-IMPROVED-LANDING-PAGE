@@ -10,6 +10,7 @@ import {
   Grid3X3,
   ChevronDown
 } from 'lucide-react';
+import logo from '../assests/images/logoIcon.png';
 
 const Header = () => {
   const [scrollY, setScrollY] = useState(0);
@@ -74,7 +75,8 @@ const Header = () => {
               <div className="flex items-center justify-between p-6 border-b border-gray-200">
                 <div className="w-32 h-10">
                   <img 
-                    src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=200&h=60&fit=crop" 
+                  src={logo}
+                    // src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=200&h=60&fit=crop" 
                     alt="Company Logo" 
                     className="w-full h-full object-contain"
                   />
@@ -202,7 +204,8 @@ const Header = () => {
           >
             <div className="w-48 h-15">
               <img 
-                src="https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=200&h=60&fit=crop" 
+                 src= {logo}
+                //  "https://images.pexels.com/photos/1779487/pexels-photo-1779487.jpeg?auto=compress&cs=tinysrgb&w=200&h=60&fit=crop" 
                 alt="Company Logo" 
                 className="w-full h-full object-contain"
               />

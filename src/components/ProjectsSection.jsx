@@ -1,5 +1,10 @@
 import React from 'react';
 import { ExternalLink, Smartphone, Calculator, CheckSquare, Globe, Users, ShoppingCart } from 'lucide-react';
+import JibuksMobile from "../assests/images/jibuksMobile.png"
+import TaxLogo from "../assests/images/taxLogo.png"
+import TaskManager from "../assests/images/taskManager.png"
+import Nexus from "../assests/images/nexusHR.png"
+import SparesGuy from "../assests/images/sparesGuy.png"
 
 const ProjectsSection = () => {
   const projects = [
@@ -7,7 +12,8 @@ const ProjectsSection = () => {
       id: 1,
       title: "Jibuks Mobile Solution",
       description: "Jibuks Mobile solution is a mobile application that helps businesses manage their sales and inventory effectively.",
-      image: "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: JibuksMobile,
+      // "https://images.pexels.com/photos/607812/pexels-photo-607812.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
       url: "https://jibuks.apbcafrica.com",
       icon: Smartphone,
       category: "Mobile App"
@@ -16,7 +22,8 @@ const ProjectsSection = () => {
       id: 2,
       title: "Paye Calculator",
       description: "Paye Calculator is a web application that helps businesses calculate their employees' paye tax.",
-      image: "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: TaxLogo,
+      // "https://images.pexels.com/photos/6863183/pexels-photo-6863183.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
       url: "https://apbcafrica.com/paye-calculator",
       icon: Calculator,
       category: "Web App"
@@ -25,7 +32,8 @@ const ProjectsSection = () => {
       id: 3,
       title: "Task Manager",
       description: "Tasks can be assigned to team members, and deadlines can be set to ensure that tasks are completed on time.",
-      image: "https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: TaskManager,
+      //"https://images.pexels.com/photos/3184465/pexels-photo-3184465.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
       url: "https://apbcafrica.com/taskhomepage",
       icon: CheckSquare,
       category: "Productivity"
@@ -34,7 +42,8 @@ const ProjectsSection = () => {
       id: 4,
       title: "Jibuks Web Solution",
       description: "The web application version of the Jibuks Mobile solution.",
-      image: "https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: JibuksMobile,
+      //"https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
       url: "https://jibuks.apbcafrica.com",
       icon: Globe,
       category: "Web App"
@@ -43,7 +52,8 @@ const ProjectsSection = () => {
       id: 5,
       title: "Nexus HR Solution",
       description: "Nexus HR Solution is a comprehensive HR management system that helps businesses manage their human resources effectively.",
-      image: "https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: Nexus,
+      //"https://images.pexels.com/photos/3184339/pexels-photo-3184339.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
       url: "https://hr.apbcafrica.com",
       icon: Users,
       category: "Enterprise"
@@ -52,7 +62,8 @@ const ProjectsSection = () => {
       id: 6,
       title: "My Spares Guy",
       description: "This is an e-commerce site to help people buy and sell spare parts for their vehicles.",
-      image: "https://images.pexels.com/photos/3846217/pexels-photo-3846217.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
+      image: SparesGuy,
+      //"https://images.pexels.com/photos/3846217/pexels-photo-3846217.jpeg?auto=compress&cs=tinysrgb&w=400&h=300&fit=crop",
       url: "https://mysparesguy.apbcafrica.com",
       icon: ShoppingCart,
       category: "E-commerce"
@@ -95,7 +106,7 @@ const ProjectsSection = () => {
                   <img 
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-110"
+                    className="w-full h-40 object-cover transition-transform duration-300 group-hover:scale-110"
                   />
                   
                   {/* Category Badge */}

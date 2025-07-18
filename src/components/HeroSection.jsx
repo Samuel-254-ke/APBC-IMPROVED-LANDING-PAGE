@@ -1,6 +1,6 @@
 import React from 'react';
 import { Quote, MoreHorizontal } from 'lucide-react';
-
+import Hero from "../assests/images/heroSecImage.jpg"
 const HeroSection = () => {
   const scrollToSection = (sectionId) => {
     const element = document.getElementById(sectionId);
@@ -44,7 +44,8 @@ const HeroSection = () => {
               {/* Main Image */}
               <div className="relative z-10">
                 <img 
-                  src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
+                  src= {Hero}
+                  // "https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&fit=crop"
                   alt="Modern office workspace" 
                   className="rounded-lg shadow-2xl w-full max-w-md lg:max-w-lg h-auto object-cover"
                 />
